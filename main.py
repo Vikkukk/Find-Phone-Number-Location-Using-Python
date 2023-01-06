@@ -21,7 +21,7 @@ try:
 
   print(carrier.name_for_number(phonenumbers.parse(number), "en"))
 
-  key = input("Enter Your API KEY: ")
+  key = input("Enter Your API KEY(Dont Know How To Get API message me on telegram @victorlctt): ")
   geocoder = OpenCageGeocode(key)
   query = str(location)
   results = geocoder.geocode(query)
